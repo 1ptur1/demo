@@ -7,8 +7,8 @@ if a>0:
         sum += i
 elif a<=0:
     for i in range(1,a+1):
-        sum+=i
+        sum+=i  
 output_data = open("output.txt","w")
-data = output_data.write()
+data = output_data.write(str(sum))
 input_data.close()
-output_data.close()
+output_data.close() 
